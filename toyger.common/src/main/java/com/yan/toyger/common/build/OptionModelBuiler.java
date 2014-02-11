@@ -9,5 +9,5 @@ public class OptionModelBuiler {
 	public static <T extends Sery<?, ?>> Option<T> build(Template<T> temple) {
 		return temple.getOption();
 	}
-	
+	 
 }
