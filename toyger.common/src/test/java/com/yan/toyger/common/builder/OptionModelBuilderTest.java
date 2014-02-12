@@ -7,6 +7,7 @@ import com.yan.toyger.common.build.StyleModelBuiler;
 import com.yan.toyger.common.build.template.sery.BarPlainTemplate;
 import com.yan.toyger.common.build.template.sery.LinePlainTemplate;
 import com.yan.toyger.common.build.template.style.ItemTomatoInsideTemplate;
+import com.yan.toyger.common.build.template.style.ItemTomatoTopTemplate;
 import com.yan.toyger.common.model.echarts.Legend;
 import com.yan.toyger.common.model.echarts.MarkPoint;
 import com.yan.toyger.common.model.echarts.MarkPointData;
@@ -67,7 +68,8 @@ public class OptionModelBuilderTest {
 				.setTitle(new Title().setText("温度计式图表"))
 				.setLegend(new Legend().setDatas("Acutal", "Forecast"))
 				.setSery(
-						new BarSery().setBarCategoryGap("50%").setName("Acutal").setStack("sum").setItemStyle(StyleModelBuiler.build(new ItemTomatoInsideTemplate())).setDatas(new BarData(260),new BarData(220),new BarData(200),new BarData(180),new BarData(220),new BarData(250))
+						new BarSery().setBarCategoryGap("50%").setName("Acutal").setStack("sum").setItemStyle(StyleModelBuiler.build(new ItemTomatoInsideTemplate())).setDatas(new BarData(260),new BarData(220),new BarData(200),new BarData(180),new BarData(220),new BarData(250)),
+						new BarSery().setName("Forecast").setStack("sum").setItemStyle(StyleModelBuiler.build(new ItemTomatoTopTemplate())).setDatas(new BarData(10),new BarData(20),new BarData(40),new BarData(20),new BarData(10),new BarData(15))
 				);
 		
 		o.getXAxis().setDatas("Cosco","CMA","APL","OOCL","Wanhai","Zim").setSplitLine(new AxisLineStyle().setShow(false));
