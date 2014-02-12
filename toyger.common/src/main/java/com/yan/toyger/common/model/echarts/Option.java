@@ -63,7 +63,7 @@ public class Option<T extends Sery<?,?>> {
 
 	public DataRange getDataRange() {
 		if(this.dataRange == null){
-			this.dataRange = new DataRange(0,100);
+			this.dataRange = new DataRange(null,null);
 		}
 		return dataRange;
 	}

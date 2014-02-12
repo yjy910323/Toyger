@@ -16,7 +16,7 @@ public class OptionModelTest {
 		Option<LineSery> option = new Option<LineSery>()
 					.setTitle(new Title().setText("未来一周气温变化").setSubtext("纯属虚构"))
 					.setTooltip(new Tooltip().setTrigger("axis"))
-					.setLegend(new Legend().setOneData("最高气温","最低气温"))
+					.setLegend(new Legend().setDatas("最高气温","最低气温"))
 					.setToolbox(new Toolbox().setShow(true).setFeature(
 							new Feature().setMark(true).setDataView(true).setSaveAsImage(true).setRestore(true)))
 					.setCalculable(true)

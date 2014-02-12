@@ -12,7 +12,15 @@ public class BarData extends Data {
 	public String toString() {
 		return JSONObject.toJSONString(this);
 	}
-
+	
+	public BarData(){
+		
+	}
+	
+	public BarData(Object value){
+		this.value = value;
+	}
+	
 	public Object getValue() {
 		return value;
 	}

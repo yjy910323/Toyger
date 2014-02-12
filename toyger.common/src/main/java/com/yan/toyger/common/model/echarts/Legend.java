@@ -122,7 +122,7 @@ public class Legend {
 		return this;
 	}
 	
-	public Legend setOneData(String... data){
+	public Legend setDatas(String... data){
 		if(this.data == null){
 			this.data = new ArrayList<String>();
 		}

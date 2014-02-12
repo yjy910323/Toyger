@@ -10,7 +10,7 @@ public class ItemTomatoInsideTemplate implements StyleTemplate<ItemStyle>{
 	public ItemStyle getStyle() {
 		ItemStyle itemStyle = new ItemStyle().setNormal(new ItemObjectStyle()
 				.setColor("tomato")
-				.setBorderColor("borderColor")
+				.setBorderColor("tomato")
 				.setBorderWidth(6)
 				.setLabel(new LabelStyle()
 						.setShow(true)
