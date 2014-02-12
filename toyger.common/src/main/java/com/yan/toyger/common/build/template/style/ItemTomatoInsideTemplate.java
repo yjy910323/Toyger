@@ -1,5 +1,6 @@
-package com.yan.toyger.common.build.template;
+package com.yan.toyger.common.build.template.style;
 
+import com.yan.toyger.common.build.template.sery.StyleTemplate;
 import com.yan.toyger.common.model.echarts.style.ItemObjectStyle;
 import com.yan.toyger.common.model.echarts.style.ItemStyle;
 import com.yan.toyger.common.model.echarts.style.LabelStyle;

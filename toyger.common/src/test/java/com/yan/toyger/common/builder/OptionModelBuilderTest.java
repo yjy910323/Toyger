@@ -3,7 +3,7 @@ package com.yan.toyger.common.builder;
 import org.junit.Test;
 
 import com.yan.toyger.common.build.OptionModelBuiler;
-import com.yan.toyger.common.build.template.LinePlainTemplate;
+import com.yan.toyger.common.build.template.sery.LinePlainTemplate;
 import com.yan.toyger.common.model.echarts.Legend;
 import com.yan.toyger.common.model.echarts.MarkPoint;
 import com.yan.toyger.common.model.echarts.MarkPointData;
@@ -52,4 +52,8 @@ public class OptionModelBuilderTest {
 		
 		System.out.println(o.buildOptionString());
 	}
+	
+	
+	@Test
+	public void Bar
 }

@@ -1,6 +1,6 @@
 package com.yan.toyger.common.build;
 
-import com.yan.toyger.common.build.template.StyleTemplate;
+import com.yan.toyger.common.build.template.sery.StyleTemplate;
 
 public class StyleModelBuiler {
 
