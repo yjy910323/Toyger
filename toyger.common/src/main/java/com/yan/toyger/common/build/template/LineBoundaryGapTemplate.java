@@ -8,7 +8,7 @@ import com.yan.toyger.common.model.echarts.Tooltip;
 import com.yan.toyger.common.model.echarts.sery.LineSery;
 import com.yan.toyger.common.model.echarts.style.AxisSplitAreaStyle;
 
-public class LineBoundaryGapTemplate implements Template<LineSery> {
+public class LineBoundaryGapTemplate implements SeryTemplate<LineSery> {
 
 	public Option<LineSery> getOption() {
 		Option<LineSery> option = new Option<LineSery>()

@@ -8,7 +8,7 @@ import com.yan.toyger.common.model.echarts.Tooltip;
 import com.yan.toyger.common.model.echarts.sery.BarSery;
 import com.yan.toyger.common.model.echarts.style.AxisSplitAreaStyle;
 
-public class BarHorizontalAxisTemplate implements Template<BarSery> {
+public class BarHorizontalAxisTemplate implements SeryTemplate<BarSery> {
 
 	public Option<BarSery> getOption() {
 		Option<BarSery> option = new Option<BarSery>()
